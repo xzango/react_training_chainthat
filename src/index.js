@@ -1,7 +1,17 @@
-import { b, c } from './app'
+import React from "react";
+import ReactDOM from "react-dom";
+import './root.css'
 
-const a = 5;
+const App = (props) => {
+  return (
+    <>
+      <h1>{props.name}</h1>
+      <h2 className="header">{props.greet}</h2>
+      <input type="text" />
+      <input type="checkbox" />
+      <input type="password" />
+    </>
+  );
+};
 
-console.log(a);
-console.log(b);
-console.log(c);
+ReactDOM.render(<App name="yagnesh" greet="hello" />, document.getElementById("root"));
