@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.todo-list-wrapper > span {
+    flex: 1;
+    padding: 0 10px;
+}
+
+
+
