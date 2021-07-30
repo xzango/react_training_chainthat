@@ -10,6 +10,7 @@ const App = (props) => {
       <input type="text" />
       <input type="checkbox" />
       <input type="password" />
+     <button>Submit</button>
     </>
   );
 };
